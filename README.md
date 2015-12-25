@@ -1,2 +1,2 @@
 # python-tools
-some python tolls
+some python tools
