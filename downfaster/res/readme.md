@@ -1,0 +1,1 @@
+This is the folder for saving html5 game resources.enjoy it!
