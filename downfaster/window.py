@@ -10,7 +10,7 @@ class ToolGUI():
     def __init__(self):
 	self.root=root= ttk.Tkinter.Tk()
 	#set window title,size and icon
-	root.wm_title('downfaster 1.0')
+	root.wm_title('downfaster 2.0')
 
 	root.withdraw()    #hide window
 	screen_width = root.winfo_screenwidth()
@@ -71,7 +71,7 @@ class ToolGUI():
 	self.filename = self.dlg.GetPathName()
 	print self.filename
 	self.tmp="当前路径："+ self.filename
-	self.update_tips(self.tmp)
+	#self.update_tips(self.tmp)
 
     def about_me(self, event):
         browser = webbrowser.get()
