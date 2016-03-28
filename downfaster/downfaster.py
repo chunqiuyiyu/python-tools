@@ -17,7 +17,7 @@ def mak_dirs(filename):
 	s = f.read()
 	f.close()
 	#add new reg pattern:some site use https protocol
-	reg=re.compile(r'https?://.*?\.(?:png|js|ogg|json|mp3|jpg|css|bin|plist|wav|xml|fnt|ini)(?!(?:\w|\\|=|\())')
+	reg=re.compile(r'https?://.[^=+\\]*?\.(?:png|js|ogg|json|mp3|jpg|css|bin|plist|wav|xml|fnt|ini)(?!(?:\w|\\|=|\(|\.))')
 	x = re.findall(reg,s)
 	x = filter(deal_path, x)
 
