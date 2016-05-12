@@ -74,15 +74,14 @@ class ToolGUI():
 	print self.dirname
 
     def modify(self, e):
-        filname = self.dirname +'apache/conf/httpd.conf'
-        with open(filname, 'r+') as f:
+        filename = self.dirname +'apache/conf/httpd.conf'
+        with open(filename, 'r+') as f:
 	        d = f.read()
 	        new = 'DocumentRoot "'+self.currentPath+'"\n'+'<Directory "'+self.currentPath+'">'
 	        x = re.sub(r'DocumentRoot\s.*\n<.*>',new, d)
 	        x = re.sub(r'\n"','"',x)
 	        f.seek(0)
-	        f.write(x)
-	        f.close()	    
+	        f.writelines(x)	    
 
     def about_me(self, event):
         self.browser.open('https://github.com/chunqiuyiyu')
