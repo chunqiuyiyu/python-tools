@@ -3,14 +3,12 @@ import Tkinter
 import ttk
 import webbrowser
 import re
-# import threading
-# import tkFileDialog
 
 class ToolGUI():
     def __init__(self):
 	self.root=root= ttk.Tkinter.Tk()
 	#set window title,size and icon
-	root.wm_title('xampp folder')
+	root.wm_title('serverpath')
 
 	root.withdraw()    #hide window
 	screen_width = root.winfo_screenwidth()
