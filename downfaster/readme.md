@@ -32,4 +32,4 @@ downfaster，一个快速下载html5游戏资源的小工具。
   [1]: http://chunqiuyiyu-typechoupload.stor.sinaapp.com/3005357825.png
   [2]: http://chunqiuyiyu-typechoupload.stor.sinaapp.com/2552164374.png
   [3]: http://chunqiuyiyu-typechoupload.stor.sinaapp.com/3137387352.png
-  [4]: http://chunqiuyiyu.sinaapp.com/
+  [4]: http://chunqiuyiyu.com/
