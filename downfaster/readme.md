@@ -29,7 +29,7 @@ downfaster，一个快速下载html5游戏资源的小工具。
 * 如果程序有什么问题，欢迎向我反馈（[反馈地址][4]）
 
 
-  [1]: http://chunqiuyiyu-typechoupload.stor.sinaapp.com/3005357825.png
-  [2]: http://chunqiuyiyu-typechoupload.stor.sinaapp.com/2552164374.png
-  [3]: http://chunqiuyiyu-typechoupload.stor.sinaapp.com/3137387352.png
-  [4]: http://chunqiuyiyu.com/
+  [1]: http://www.chunqiuyiyu.com/usr/uploads/2016/09/1010043363.png
+  [2]: http://www.chunqiuyiyu.com/usr/uploads/2016/09/2654014268.png
+  [3]: http://www.chunqiuyiyu.com/usr/uploads/2016/09/3042905707.png
+  [4]: http://www.chunqiuyiyu.com/2016/01/download-html5-game-resources.html
