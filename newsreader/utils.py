@@ -36,7 +36,7 @@ def query():
 
 
 def about():
-  webbrowser.open('www.chunqiuyiyu.com')
+  webbrowser.open('http://www.chunqiuyiyu.com/2017/03/newsreader-simple-information-reader.html')
 
 def getIndex(e):
   global index
