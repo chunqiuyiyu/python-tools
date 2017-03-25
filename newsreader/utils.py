@@ -7,15 +7,20 @@ r = requests.get('http://www.yxdown.com/')
 r.encoding = 'gbk'
 
 soup = BeautifulSoup(r.text, 'lxml')
-tree = soup.find_all('li',class_="top")
+tree = soup.find_all('div',class_="ifo_con1")
+liData = []
+
+for x in tree:
+  tmpTree = x.ul
+  for i in tmpTree:
+    if i == '\n':
+      continue
+    liData.append(i)
 
 newsData = []
 linkData = []
 
-for i,x in enumerate(tree):
-# limit the amout of news to get correct info
-  if i>31:
-    break
+for x in liData:
   item = x.get_text()
   newsData.append(item[:-4])
   a = x.span.i.a
