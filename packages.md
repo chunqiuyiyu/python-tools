@@ -1,12 +1,8 @@
 The packages which I use in SublimeText3 frequently for front-end development.
 
-- Package Control
+- Package Control - The Sublime Text package manager.
 
-The Sublime Text package manager.
-
-- Sidebar Enhancements
-
-Provides enhancements to the operations on Sidebar of Files and Folders for Sublime Text.
+- Sidebar Enhancements - Provides enhancements to the operations on Sidebar of Files and Folders for Sublime Text.
 
 - Markdown Preview
 
