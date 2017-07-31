@@ -9,7 +9,7 @@ downfaster，一个快速下载html5游戏资源的小工具。
 * urllib（python提供的http模块，主要用到了`urllib.urlretrieve(url, path)`方法）
 
 ## 如何使用
-用chrome打开你要下载的游戏链接，打开开发者工具，选择网络选项卡，在任一资源上右键菜单选择下载游戏的har文件（har文件就是当前链接所有网络请求的归档文档，工具需要这个文件来解析出资源的路径，所以，downfaster需要和chrome来配合使用）。
+用 chrome 打开你要下载的游戏链接，打开开发者工具，选择网络选项卡，在任一资源上右键菜单选择下载游戏的har文件（har文件就是当前链接所有网络请求的归档文档，工具需要这个文件来解析出资源的路径，所以，downfaster需要和chrome来配合使用）。
 
 ![down-har-file.png][1]
 
