@@ -63,7 +63,18 @@ for data in info:
             if ir.status_code == 200:
                 open('img/' + name, 'wb').write(ir.content)
     f.write(article + '\n')
-  print ' %d / %d' % (index, len(info))
+  print 'Posts: %d / %d' % (index, len(info))
+  index = 0
+
+# out put tags
+datas = cur.execute("select * from typecho_metas where type = 'tag'")
+tags = cur.fetchmany(datas)
+for tag in tags:
+  index += 1
+  with open('tags.yaml', 'a') as f:
+    f.write(tag[1].encode('utf8') + ': ' + tag[2].encode('utf8') + '\n')
+
+  print 'Tags: %d / %d' % (index, len(tags))
 
 cur.close()
 conn.commit()
