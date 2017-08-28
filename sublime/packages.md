@@ -30,5 +30,7 @@ The packages which I use in SublimeText3 frequently for front-end development.
 
 - MarkdownEditing - Markdown plugin for Sublime Text.
 
+- Tomorrow Theme - A bright theme with pastel colours and sensible syntax highlighting.
+
 I will update this file from time to time, so far above packages is already enough.
 
