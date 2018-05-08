@@ -1,7 +1,7 @@
 {
-	"color_scheme": "Packages/sublime-tomorrow-theme/Tomorrow.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow.tmTheme",
 	"default_line_ending": "unix",
-	"font_size": 14,
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"Vintage"
