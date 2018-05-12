@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow.tmTheme",
 	"default_line_ending": "unix",
+	"font_face": "Microsoft YaHei",
 	"font_size": 16,
 	"ignored_packages":
 	[
