@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow.tmTheme",
+	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-tomorrow.tmTheme",
 	"default_line_ending": "unix",
 	"font_face": "Microsoft YaHei",
 	"font_size": 16,
@@ -9,5 +9,6 @@
 	],
 	"show_encoding": true,
 	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
