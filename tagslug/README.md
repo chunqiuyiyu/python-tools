@@ -1,0 +1,1 @@
+Hexo 配置文件（_config.yml）中的 tag_map 选项用来设定标签别名。此脚本会遍历文章中所有的标签，将其汇总到 tagslug.yml 中，使你方便地设定标签别名，主要是对中文标签设定英文别名，使 Hexo 生成友好（SEO Friendly）的 URL。
