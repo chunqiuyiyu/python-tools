@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-tomorrow.tmTheme",
 	"default_line_ending": "unix",
-	"font_face": "Microsoft YaHei",
+	"font_face": "Fira Code Retina",
 	"font_size": 16,
 	"ignored_packages":
 	[
