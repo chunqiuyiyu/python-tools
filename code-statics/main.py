@@ -1,10 +1,11 @@
 import os
 import re
 
+
 basedir = "path/to/code/src"
 count = 0
 
-def statics(filepath):
+def statics(filepath):              #defining statistics 
   global count
   files = os.listdir(filepath)
   for fi in files:
@@ -13,7 +14,7 @@ def statics(filepath):
       statics(fi_d)
     else:
       name = os.path.join(filepath,fi_d)
-      # Only the js file is counted in this example
+      # Only the js file is counted in this example. notany other .
       if (name[-2:] == "js"):
         with open(name) as f:
           for l in f:
