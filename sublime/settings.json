@@ -1,15 +1,17 @@
 {
-	"color_scheme": "Packages/Base16 Color Schemes/Themes/base16-tomorrow.tmTheme",
 	"default_line_ending": "unix",
 	"font_face": "Fira Code Retina",
 	"font_size": 16,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"show_encoding": true,
 	"tab_size": 2,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"index_files": false
+	"index_files": false,
+	"dark_theme": "Default.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"color_scheme": "Celeste.sublime-color-scheme",
 }
